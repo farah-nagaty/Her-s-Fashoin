@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HOME</title>
+    <link href="style/home.css" rel="stylesheet">
+    <link href="font/fontawesome/css/all.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    <nav class="nav">
+        <section class="table">
+            <div class="table-cell logo">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <h5>HERS</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="table-cell">
+                <ul style="list-style-type: none;">
+                    <li><a href="HOME.html"> HOME</a></li> 
+                    <li><a href="SERVICES.html">SERVICES</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACTUS.html">CONTACT US</a></li>
+                    <li><a href="LOGIN.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </section>
+    </nav>
+
+
+
+    <main class="first-card">
+        <section class="table">
+            <section class="table-cell">
+                <div class="words">
+                    <p class="p1">LET’S <br>EXPLORE<br> UNIQUE<br> CLOTHES.</p>
+
+                    <button class="shop-now"><a href="SERVICES.html">Shop Now</a></button>
+                </div>
+            </section>
+            <div class="table-cell img">
+                <img src="img/girl-home.png" alt="img" style="width: 735px; height: 557px;">
+            </div>
+        </section>
+    </main>
+
+
+    <yellow-bar class="pink-bar">
+        <section class="table">
+            <section class="table-cell">
+                <div class="table-cell img">
+                    <ul style="list-style-type: none ">
+                        <li><img src="img/H_M-Logo.png" alt="img" style="height: 37px; width: 62px;"></li>
+                        <li><img src="img/pngwing.com (2).png" alt="img" style="height: 37px; width: 62px;"></li>
+                        <li><img src="img/chanel.png" alt="img" style="height: 37px; width: 114px;"></li>
+                        <li><img src="img/lacoste.png" alt="img" style="height: 37px; width: 135px;"></li>
+                        <li><img src="img/levis.png" alt="img" style="height: 37px; width: 78px;"></li>
+                        
+                    </ul>
+                </div>
+            </section>
+        </section>
+    </yellow-bar>
+
+    <main class="content">
+        <div class="head">
+            <h3>NEW ARRIVALS</h3>
+            <img src="img/Vector 8.png" alt="img"
+                style="width: 148px; height: 30px; margin-left: 135px; margin-top: 20px;">
+        </div>
+        <div class="table">
+            <div class="table-cell">
+                <img src="img/Rectangle 20.png" alt="img" id="image2">
+                <h4>Hoodies & Sweetshirt</h4>
+                <a onClick = "myF2()"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="table-cell">
+                <img src="img/Rectangle 21.png" alt="img" id="image1">
+                <h4>Coats & Hats</h4>
+                <a  onClick = "myF1()"><i class="fa-solid fa-arrow-right" ></i></a> 
+            </div>
+
+            <div class="table-cell">
+                <img src="img/Rectangle 22.png" alt="img" id="image3">
+                <h4>Jeans & T-Shirt</h4>
+                <a onClick = "myF3()"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </main>
+
+
+
+    <main class="content2">
+        <section class="table">
+            <div class="table-cell">
+               
+                <img src="img/image.png" alt="img" class="animate-image" 
+                    style="width: 306px; height: 664px; margin-left: 278px; margin-top: 75px;">
+             
+             
+              
+            </div>
+            <section class="table-cell">
+                <!-- حركة اللون علي الكلمة بالماوس  -->
+                
+                <h2 onmouseover="style.color='white'" onmouseout="style.color='black'">FLASH SALE NOW </h2>
+        
+                <p>Spend minimal $100 get 30% off voucher code for your next purchase</p>
+                <p class="date" style="font-weight:bolder;" id="p0">1 June - 10 June 2023</p>
+                <p>*Terms & Conditions apply</p>
+                
+                <button class="move-btn">Click OFFER </button>
+
+                <!-- Alert massage welcome to flash sale -->
+                <button class="shop-now" onclick = "alert('Welcome to Flash sale')"><a href="#">SHOP NOW</a></button> 
+               
+                
+            </section>
+
+        </section>
+    </main>
+
+
+
+    <main class="content3">
+        <div class="head">
+            <h3>Young’s Favourite</h3>
+            <img src="img/Vector 8.png" alt="img"
+                style="width: 148px; height: 30px; margin-left: 200px; margin-top: 20px;">
+        </div>
+        <div class="table">
+            <div class="table-cell">
+                <img src="img/Rectangle 50.png" alt="img">
+                <h4>Trending on instagram</h4>
+                <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="table-cell">
+                <img src="img/Rectangle 49.png" alt="img">
+                <h4>All Under $40</h4>
+                <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </main>
+
+
+
+    <main class="content1">
+        <section class="table">
+            <section class="table-cell">
+                
+            <h2 onmouseover="style.color='orange'" onmouseout="style.color='black'"> DOWNLOAD APP & GET THE VOUCHER!</h2>
+                <p id="p1">Get 30% off for first transaction using
+                    Rondovision mobile app for now.
+                </p>
+                <button onclick="p1()"><a>Download on the<h4>Apple Store</h4></a></button>
+                <button class="google"><a>Get it on<h4>Google Play</h4>
+                    </a></button>
+            </section>
+            <div class="table-cell">
+                <img src="img/mobile.png" style="width: 701px; height: 812px;" alt="img">
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <section class="container">
+            <div class="table">
+                <div class="table-cell first-cell">
+                    <p class="p">FASHION</p>
+                    <ul style="list-style-type: none;">
+                        <li class="p1">
+                            <p> Complete your style with awesome clothes from us. </p>
+                        </li>
+                    </ul>
+                    <section>
+                        <p class="icon">
+                            <a class="color"><i class="fa-brands fa-square-facebook ic"></i></a>
+                            <a class="color"><i class="fa-brands fa-square-instagram ic"></i></a>
+                            <a class="color"><i class="fa-brands fa-square-twitter ic"></i></a>
+                            <a class="color"><i class="fa-brands fa-linkedin ic"></i></a>
+                        </p>
+                    </section>
+
+                </div>
+
+                <div class="table-cell second-cell">
+                    <ul style="list-style-type: none;">
+                        <h3> Hers</h3>
+                        <li> About </li>
+                        <li> Contact us </li>
+                        <li> Services </li>
+                    </ul>
+                </div>
+
+                <div class="table-cell third-cell">
+                    <ul style="list-style-type: none;">
+                        <h3> Quick Link </h3>
+                        <li> Orders Tracking </li>
+                        <li> Size Guide </li>
+                        <li> FAQS </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+</body>
+
+<script type="text/javascript" src="main.js"> </script>
+
+</html>

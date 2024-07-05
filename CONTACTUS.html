@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+     <title>ContactUs</title>
+     <link rel="stylesheet"href="style/home.css">
+     <link rel="stylesheet" type="text/css" href="style/contactus.css" />
+
+</head>
+<body>
+     <nav class="nav">
+          <section class="table">
+              <div class="table-cell logo">
+                  <ul style="list-style-type: none;">
+                      <li>
+                          <h5>HERS</h5>
+                      </li>
+                  </ul>
+              </div>
+              <div class="table-cell">
+                  <ul style="list-style-type: none;">
+                      <li><a href="HOME.html"> HOME</a></li> 
+                      <li><a href="SERVICES.html">SERVICES</a></li>
+                      <li><a href="ABOUT.html">ABOUT</a></li>
+                      <li><a href="CONTACTUS.html">CONTACT US</a></li>
+                      <li><a href="LOGIN.html">LOGIN</a></li>
+                  </ul>
+              </div>
+          </section>
+      </nav>
+      
+       <!--End Header-->
+       <!--Start Body-->
+       <div id="body1">
+          <div id="Contactus">
+            <div id="contanier">
+               <form action="Home.html">
+                         <h1 style="text-align:center">Contact Us</h1>
+                         <p><h4 style="text-align:center">We'd love to hear from you!</h4></p>
+                         <div class="col">
+                         <label for="fullname">Full Name</label>
+                         </div>
+                         <input type="text" id="fullname" name="fullname" placeholder="Your name..">
+                         
+                    
+                    <div class="col">
+                         <label for="Email">E-mail</label>
+                    </div>
+                         <input type="text" id="Email" name="E-mail" placeholder="Your mail..">
+                     
+                     <div class="col">
+                         <label for="country">Country</label>
+                     </div>
+                          <select id="country" name="country">
+                         <option value="Egypt">Egypt</option>
+                         <option value="Saudi Arabia">Saudi Arabia</option>
+                          <option value="Jordan">Jordan</option>
+                          <option value="Lebanon">Lebanon</option>
+                             </select>>
+                             <div class="col">
+                             <label for="">Message</label>
+                             </div>
+                             <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+                             
+                         <br>
+                         <br>
+                        
+     
+                        <button onclick="myfun_alert()"> Submit </button>
+                    
+                        
+                         <form onsubmit="return false"> 
+                              <div class="div10">
+                                   <p id="p">Thank You!</p>
+                              
+                                  </div>
+                         </form>
+
+              
+
+               </div>      
+                  
+             </div>
+          </div>
+      </div>
+       <!--End Body-->
+</body>
+<script type="text/javascript" src="main.js"> </script>
+
+</html>

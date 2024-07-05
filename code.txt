@@ -1,0 +1,83 @@
+<a href="Home.html"><li>|Home</li></a>
+                    <a href="Sevices.html"><li>|Services</li></a>
+                    <a href="About.html"><li>|About</li></a>
+                    <a href="Contactus.html"><li>|Contact us</li></a>
+
+
+
+
+
+<table id="table" border="1" with="1500">
+          <tr>
+               <th>Size</th>
+               <th>Sleeve Length</th>
+               <th>Top Length</th>
+               <th>Bottoms Length</th>
+
+          </tr>
+          <tr>
+               <th>S</th>
+               <td>59</td>
+               <td>70</td>
+               <td>84</td>
+          </tr>
+          <tr>
+               <th>M</th>
+               <td>60</td>
+               <td>71</td>
+               <td>85</td>
+
+          </tr>
+          <tr>
+               <th>L</th>
+               <td>61</td>
+               <td>72</td>
+               <td>86</td>
+
+          </tr>
+          <tr>
+               <th>XL</th>
+               <td>62</td>
+               <td>73</td>
+               <td>87</td>
+          </tr>
+
+
+
+
+
+
+
+         </table>
+
+
+
+ <div class="mySlides fade ">
+            
+            <img src="/images/2002.jpeg" style="width: 130%">
+            
+          </div>
+          
+          <div class="mySlides fade ">
+            
+            <img src="/images/2003.jpeg" style="width:50%">
+           
+          </div>
+          <hr>
+ <div class="mySlides fade ">
+            
+            <img src="/images/2001.jpeg" style="width:120%">
+         
+          </div>
+table{
+     font-size: small;
+    font-family: -webkit-pictograph;
+    
+    background-color: lightsteelblue;
+ <button class="shop-now"><a href="#">SHOP NOW</a></button>
+<h2>FLASH SALE NOW </h2>
+ <img src="img/W1 (4).png" width="600" height="400">
+
+
+<p class="date" style="font-weight:bolder;" id="p0">1 June - 10 June 2023</p>
+<button>70% OFFER</button>
